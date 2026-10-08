@@ -30,3 +30,16 @@ reference/papers/
 # NC-15：L1(r=3) 權重與 validation 逐張評估（連同 .done）只留在本機
 outputs/navcil/*/nc15/lora_r3/
 outputs/navcil/*/nc15/val/
+
+# --- 過程檔與可重生檔（2026-10-08 整理）---
+outputs/navcil/mac/*/progress/
+outputs/navcil/mac/*_smoke/
+outputs/navcil/mac/*/cache/
+*.done
+*.pt
+*.npy
+# head 訓練紀錄（報告不引用，可由 seed 重訓）
+outputs/navcil/mac/moe1/gate/xfit/
+outputs/navcil/mac/moe1/i6_seed4*/
+# 批次進度 log
+outputs/navcil/mac/*/progress_*.txt
