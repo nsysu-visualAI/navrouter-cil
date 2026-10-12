@@ -1285,6 +1285,6 @@
  "boot_seed": 0,
  "alpha": 0.05,
  "stage": "ext3",
- "finished": "2026-10-13T00:01:29",
+ "finished": "2026-10-13T00:25:15",
  "source": "lad1/cells"
 }
