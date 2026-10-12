@@ -190,7 +190,11 @@ def write_report(res: dict) -> None:
           f"p = {b['p_sign']:.4f}；顯著：{yn(V['cell2'][o]['sig_vs_FINALB'])} | {yn(V['cell2'][o]['fallback'])}（備案：差不到 1 pp 且不顯著） |",
           f"| 格 1 − FINAL-B | 無預期 | {c['mean_diff']:+.4f}；贏／輸／平手 {c['wins']}／{c['losses']}／{c['ties']}；p = {c['p_sign']:.4f}；"
           f"顯著：{yn(V['cell1_vs_FINALB'][o]['sig'])}；bootstrap 95% CI [{c['boot_ci95'][0]:+.4f}, {c['boot_ci95'][1]:+.4f}] | — |",
-          "", "## 未完成項與原因", "",
+          ""]
+    sec = OUT / "SECTION_gamma.md"                       # 第二段（PREREG-24）：ext3_gamma.py 的輸出，存在才併入
+    if sec.exists():
+        L += [sec.read_text().rstrip(), ""]
+    L += ["## 未完成項與原因", "",
           "- 「回報任何數字之前先 commit PREREG-23」：未做到（D1）。", "- 其餘無。", "",
           "## 失敗", "", "無。", "",
           "## DECISIONS.md（`ext3/DECISIONS.md` 全文）", "", (OUT / "DECISIONS.md").read_text().rstrip(), ""]
