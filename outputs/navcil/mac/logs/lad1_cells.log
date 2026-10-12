@@ -1,0 +1,25 @@
+[2026-10-12 23:51:08] start: /Users/aaron/venvs/navcil/bin/python scripts/lad1_cells.py --device cpu 
+[23:51:12] LAD-1 cells folds=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] threads=8 commit=864f72b
+[23:51:12] fold 1 reverse: 4 列 0.4s
+[23:51:12] fold 1 paper: 4 列 0.2s
+[23:51:13] fold 2 reverse: 4 列 0.4s
+[23:51:13] fold 2 paper: 4 列 0.1s
+[23:51:13] fold 3 reverse: 4 列 0.3s
+[23:51:13] fold 3 paper: 4 列 0.1s
+[23:51:13] fold 4 reverse: 4 列 0.3s
+[23:51:13] fold 4 paper: 4 列 0.1s
+[23:51:14] fold 5 reverse: 4 列 0.2s
+[23:51:14] fold 5 paper: 4 列 0.1s
+[23:51:15] fold 6 reverse: 4 列 0.7s
+[23:51:15] fold 6 paper: 4 列 0.8s
+[23:51:16] fold 7 reverse: 4 列 0.3s
+[23:51:16] fold 7 paper: 4 列 0.2s
+[23:51:16] fold 8 reverse: 4 列 0.2s
+[23:51:16] fold 8 paper: 4 列 0.1s
+[23:51:16] fold 9 reverse: 4 列 0.2s
+[23:51:17] fold 9 paper: 4 列 0.1s
+[23:51:17] fold 10 reverse: 4 列 0.3s
+[23:51:17] fold 10 paper: 4 列 0.1s
+[23:51:17] KA {'FINALB': 0.0, 'LIN8': 0.0}（通過）；KB max_abs = 0.00e+00（通過）
+[23:51:17] cells: 完成（6s）
+[2026-10-12 23:51:18] exit=0
